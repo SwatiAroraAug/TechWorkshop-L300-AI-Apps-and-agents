@@ -47,6 +47,6 @@ jobs:
             --image ${{ env.AZURE_CONTAINER_REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }} \
             --set-env-vars \
               FOUNDRY_ENDPOINT="${{ secrets.FOUNDRY_ENDPOINT }}" \
-              gpt_endpoint="${{ secrets.GPT_ENDPOINT }}" \
-              embedding_endpoint="${{ secrets.EMBEDDING_ENDPOINT }}" \
-              phi_4_endpoint="${{ secrets.PHI_4_ENDPOINT }}"
+             gpt_endpoint="${{ secrets.gpt_endpoint }}" \
+              embedding_endpoint="${{ secrets.embedding_endpoint }}" \
+              phi_4_endpoint="${{ secrets.phi_4_endpoint }}"

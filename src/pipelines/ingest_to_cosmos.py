@@ -9,6 +9,7 @@ from azure.identity import DefaultAzureCredential
 from dotenv import load_dotenv
 
 
+
 load_dotenv()
 
 # CONFIGURATIONS - Replace with your actual values or set as env vars
