@@ -30,7 +30,7 @@ async def lifespan(app: FastAPI):
     """Manage application lifespan"""
     global httpx_client, a2a_server
     
-    # Startup
+    # Startup Swati
     logger.info("Starting Zava Product Manager with A2A integration...")
     httpx_client = httpx.AsyncClient(timeout=30)
     
